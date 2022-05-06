@@ -6,7 +6,7 @@ const express = require('express')
 const app = express()
 
 //Import router we created
-app.use('places', require('./controllers/places'))
+app.use('/places', require('./controllers/places'))
 
 //Make a homepage route
 app.get('/', (req, res) => {
