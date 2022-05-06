@@ -5,6 +5,9 @@ const express = require('express')
 //Initialize the app object
 const app = express()
 
+//Import router we created
+app.use('places', require('./controllers/places'))
+
 //Make a homepage route
 app.get('/', (req, res) => {
 res.send('Hello world!')
