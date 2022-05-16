@@ -13,6 +13,4 @@ function error404 () {
     )
   }
 
-app.get('*',(req, res) => {
-    res.render('error404')
-})
+module.exports = error404
