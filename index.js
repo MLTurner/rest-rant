@@ -6,7 +6,7 @@ const express = require('express')
 const app = express()
 
 //Defining the view engine (JSX in this case)
-app.set('views', _dirname + '/views')
+//app.set('views', _dirname + '/views')
 app.set('view engine', 'jsx')
 app.engine('jsx', require('express-react-views').createEngine())
 app.use(express.static('public'))

@@ -7,16 +7,18 @@ function Home () {
     return (
         <Def>
             <main>
-                <h1>HOME</h1>
+                <h1>Rest-RANT</h1>
+                <h3>Places to rant or rave about</h3>
+                <a href="/places">
+                <button className="btn-primary">Places Page</button>
+                </a>
                 <div>
                     <img src="/images/colorful-food-bowl.jpg" alt="Colorful food bowl"/>
                     <div>
                         Photo by <a href="https://unsplash.com/@pwign">Anh Nguyen</a> on <a href="https://unsplash.com/photos/kcA-c3f_3FE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">Unsplash</a>
                     </div>
                 </div>
-                <a href="/places">
-                <button className="btn-primary">Places Page</button>
-                </a>
+                
 
             </main>
         </Def>

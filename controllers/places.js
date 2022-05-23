@@ -1,6 +1,13 @@
 const router = require('express').Router()
 
-// GET /places (an array to return objects of data to
+
+//NEW route for views/places/new
+router.get('/new', (req, res) => {
+  res.render('places/new')
+})
+
+
+// GET views/places/index (an array to return objects of data to
   //represent restaurants)
 router.get('/', (req, res) => {
     let places = [{
@@ -14,7 +21,7 @@ router.get('/', (req, res) => {
         city: 'Raleigh',
         state: 'NC',
         cuisines: 'Mexican',
-        pic: 'http://placekitten.com/250/250'
+        pic: '/images/la-santa.jpg'
       }]
       
     res.render('places/index', { places })
