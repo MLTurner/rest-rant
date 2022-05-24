@@ -7,6 +7,12 @@ function new_form() {
         <Def>
             <main>
                 <h1>Add a New Place!</h1>
+                <form method="POST" action ="/places">
+                    <div>
+                        <label htmlFor="name">Place Name</label>
+                        <input id="name" name="name" />
+                    </div>
+                </form>
             </main>
         </Def>
     )
