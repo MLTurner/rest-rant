@@ -15,7 +15,7 @@ router.get('/', (req, res) => {
         city: 'Raleigh',
         state: 'NC',
         cuisines: 'Thai, Pan-Asian',
-        pic: '/images/budacai.jpg'
+        pic: '/images/kimchi-budacai.jpg'
       }, {
         name: 'La Santa',
         city: 'Raleigh',
